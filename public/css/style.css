@@ -1,41 +1,61 @@
-
-h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+#my-info {
+  font-family: "Nunito", sans-serif;
+  background-image: url("/static/images/background.jpg");
+  background-repeat: repeat;
+  background-position: center top;  
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+h1, h2, h6{
+  color: rgba(224, 36, 184, 0.9);
+}
 
-  h6{
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 600;
-  }
+h5 {
+  color: rgba(63, 52, 61, 0.9);
+}
+.notFound{
+  background-color: rgba(255, 208, 245, 0.9);
+  background-image: url("/static/images/404.png");
+}
 
-  p{
-    font-size: 15px;
-    color: #666;
-  }
+h1,h2,h3,h4,h5,p{
+  font-family: 'Cairo', serif;
+}
+
+h5{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+h6{
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p{
+  font-size: 15px;
+  color: #666;
+}
 
 .round{
   border-radius: 5px;
 }
 
 .text-light{
-  color: #666;
+  color: rgb(75, 63, 63);
 }
 
 .button{
-  background-color: #333;
+  background-color: rgba(255, 210, 245, 0.9);
+  color: rgb(0, 0, 0)
 }
 
-.button:hover{
-  background-color: #111;
+.button:hover,.button:focus{
+  background-color: rgba(255, 210, 245, 0.5);
+  color: rgb(0, 0, 0)
 }
 
 a{
@@ -63,24 +83,24 @@ a:hover{
   box-shadow: none !important;
 }
 
-  .portfolio-me p{
-    font-size: 14px;
-    color: #999;
-  }
+.portfolio-me p{
+  font-size: 14px;
+  color: #999;
+}
 
-  .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 600;
-    color: #555;
-    font-size: 13px;
-    letter-spacing: 2.5px;
-    -webkit-text-transform: uppercase;
-    text-transform: uppercase;
-  }
+.portfolio-me a{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  color: #555;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-  .portfolio-me a:hover{
-    color: #999;
-  }
+.portfolio-me a:hover{
+  color: #999;
+}
 
 .portfolio-breadcrumb{
   margin: 0;
@@ -88,21 +108,21 @@ a:hover{
   border-bottom: 1px solid #eaeaea;
 }
 
- .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   font-weight: 600;
-   font-size: 13px;
-   letter-spacing: 2.5px;
-   -webkit-text-transform: uppercase;
-   text-transform: uppercase;
- }
+.portfolio-breadcrumb a{
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 2.5px;
+  -webkit-text-transform: uppercase;
+  text-transform: uppercase;
+}
 
-.portfolio-intro{
+.portfolio-intro,.portfolio-error{
   margin: 0;
   padding: 40px 50px 30px;
 }
 
-.portfolio-intro p{
+.portfolio-intro,.portfolio-error p{
   border-bottom: 1px solid #eaeaea;
   padding-bottom: 40px;
 }
@@ -112,29 +132,33 @@ a:hover{
   padding: 10px 50px;
 }
 
-  .portfolio-index .thumbnail{
-    margin-bottom: 5px;
-  }
+.portfolio-index .thumbnail{
+  margin-bottom: 5px;
+}
 
-  .portfolio-index a{
-    color: #222;
-  }
+.portfolio-index .cell:hover{
+  box-shadow: 10px 10px 10px 5px rgba(255, 210, 245, 0.9);
+}
 
-  .portfolio-index .cell{
-    margin-bottom: 15px;
-  }
+.portfolio-index a{
+  color: rgb(34, 34, 34);
+}
 
-    .portfolio-index .cell h5{
-      letter-spacing: 1px;
-    }
+.portfolio-index .cell{
+  margin-bottom: 15px;
+}
+
+.portfolio-index .cell h5{
+  letter-spacing: 1px;
+}
 
 .portfolio-meta{
   padding-left: 20px;
 }
 
-  .portfolio-meta .button{
-    margin-bottom: 5px;
-  }
+.portfolio-meta .button{
+  margin-bottom: 5px;
+}
 
 .portfolio-project p{
   border: none;

@@ -1,0 +1,124 @@
+{
+    "name" : "Christeena Andrea Maderal",
+    "title" : "Full Stack Javascript Developer",
+    "description": "I love learning new things!",
+    "bios" : "Hi, I am Christeena! I work as a network engineer for Sony Interactive Entertainment, currently developing apps for the upcoming PS5. Cool right? On my free time, I like learning new things. I am mostly a backend developer but I was always curious about front-end. I applied to Treehouse Full-stack Javascript Development course to learn more about web application development. This portfolio is to showcase the several projects that I did in the course. Doing them had been a very fun experience. Please feel free to look around!",
+    "skills" : [
+        "Javascript",
+        "CSS",
+        "HTML",
+        "Express",
+        "Node.js",
+        "Java",
+        "C/C++",
+        "Python",
+        "SQL",
+        "AWS Cloud Services"
+    ],
+    "contacts" : [
+        "camaderal@gmail.com"
+    ],
+    "social_media" : [
+        {
+            "name" : "Linkedin",
+            "link" : "https://www.linkedin.com/in/christeena-andrea-maderal-8952397a/"
+        },
+        {
+            "name" : "Github",
+            "link" : "https://github.com/camaderal"
+        }
+    ],
+    "profile_pic": "/static/images/profile.png",
+    "projects" : [
+        {
+            "id" : "0",
+            "project_name": "A Random Quote Generator",
+            "description": "Prints random quotes on the screen every 10 seconds. It also changes displayed quote when button 「Show Another Quote」is clicked.",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://camaderal.github.io/ts_fsjs_unit_01/",
+            "github_link": "https://github.com/camaderal/ts_fsjs_unit_01",
+            "image_urls": [
+                "/static/images/projects/0/main.png",
+                "/static/images/projects/0/01.png",
+                "/static/images/projects/0/02.png",
+                "/static/images/projects/0/03.png"
+            ]
+        },
+        {
+            "id" : "1",
+            "project_name": "List Pagination and Filtering",
+            "description": "A site that demonstrates list paging and filtering functions. Displays a list of students that can be viewed in pages and filtered by a key.",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://camaderal.github.io/td_fsjs_unit_02/",
+            "github_link": "https://github.com/camaderal/td_fsjs_unit_02",
+            "image_urls": [
+                "/static/images/projects/1/main.png",
+                "/static/images/projects/1/01.png",
+                "/static/images/projects/1/02.png",
+                "/static/images/projects/1/03.png"
+            ]
+        },
+        {
+            "id" : "2",
+            "project_name": "Interactive Form",
+            "description": "A site that showcases different form elements and validation. It accepts and validates info enterd by a user when registering for a full stack conference.",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://camaderal.github.io/td_fsjs_unit_03/",
+            "github_link": "https://github.com/camaderal/td_fsjs_unit_03",
+            "image_urls": [
+                "/static/images/projects/2/main.png",
+                "/static/images/projects/2/01.png",
+                "/static/images/projects/2/02.png",
+                "/static/images/projects/2/03.png"
+            ]
+        },
+        {
+            "id" : "3",
+            "project_name": "OOP Game Show App",
+            "description": "A game that demonstrates simple OOP concepts. Play a game where you guess all the letters in a hidden, random phrase. If the selected letter is in the phrase at least once, the letter and its position in the phrase will be revealed. If the selected letter is not in the phrase, the player will lose a life. To win, the player must guess all the letters in the phrase before their life runs out!",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://camaderal.github.io/td_fsjs_unit_04/",
+            "github_link": "https://github.com/camaderal/td_fsjs_unit_04",
+            "image_urls": [
+                "/static/images/projects/3/main.png",
+                "/static/images/projects/3/01.png",
+                "/static/images/projects/3/02.png",
+                "/static/images/projects/3/03.png"
+            ]
+        },
+        {
+            "id" : "4",
+            "project_name": "Public API Requests",
+            "description": "A site that demonstrates requesting data from public APIs. View information on random employees on an employee directory that was generated using the Random Person Generator API.",
+            "technologies": [
+                "Javascript",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://camaderal.github.io/td_fsjs_unit_05/",
+            "github_link": "https://github.com/camaderal/td_fsjs_unit_05",
+            "image_urls": [
+                "/static/images/projects/4/main.png",
+                "/static/images/projects/4/01.png",
+                "/static/images/projects/4/02.png",
+                "/static/images/projects/4/03.png"
+            ]
+        }
+    ]
+}

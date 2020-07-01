@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+
+  article.grid-container.portfolio-error
+    div
+
+      h1 Sorry :(
+
+      p.lead.text-light
+        | Something went wrong.
+        br
+        | #{err.status} : #{err.message}
+
+      button.button#showStackTrace Show details
+      
+      div#stackTrace(style="display:none")
+        pre.stack-trace= err.stack
+
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  script(src='/static/js/error.js')
+  
