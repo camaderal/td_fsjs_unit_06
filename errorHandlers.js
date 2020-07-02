@@ -20,6 +20,9 @@ const routeNotExistentHandler = (req, res, next) => {
     // Set error message. If not set, set to default.
     err.message = err.message || "Something went wrong!";
 
+    //print error on console
+    console.error(err);
+    
     // set response error status
     res.status(err.status);
     res.render("error", {err});
